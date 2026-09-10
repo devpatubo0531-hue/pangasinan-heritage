@@ -1,0 +1,8 @@
+const HeritageCard_vue_vue_type_style_index_0_scoped_39d923b8_inline_used_lang = ".heritage-card[data-v-39d923b8]{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-md);display:flex;flex-direction:column;height:100%;overflow:hidden}.heritage-card__body[data-v-39d923b8]{display:flex;flex:1;flex-direction:column;gap:var(--space-2);padding:var(--space-4)}.heritage-card__town[data-v-39d923b8]{align-items:center;color:var(--color-primary);display:flex;font-size:var(--text-xs);font-weight:600;gap:var(--space-1);letter-spacing:.02em;margin:0}.heritage-card__desc[data-v-39d923b8]{color:var(--color-text-muted);flex:1}.heritage-card__link[data-v-39d923b8]{align-items:center;background:none;border:none;color:var(--color-primary-dark);cursor:pointer;display:inline-flex;font-family:inherit;font-size:var(--text-sm);font-weight:600;gap:var(--space-1);margin-top:var(--space-2);padding:0;text-decoration:none;width:-moz-fit-content;width:fit-content}.heritage-card__link[data-v-39d923b8]:hover{color:var(--color-accent-dark)}";
+
+const HeritageCardStyles_BuBcw4_q = [
+  HeritageCard_vue_vue_type_style_index_0_scoped_39d923b8_inline_used_lang
+];
+
+export { HeritageCardStyles_BuBcw4_q as default };
+//# sourceMappingURL=HeritageCard-styles.BuBcw4_q.mjs.map

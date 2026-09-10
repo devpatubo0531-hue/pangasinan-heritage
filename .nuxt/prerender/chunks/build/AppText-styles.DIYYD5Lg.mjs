@@ -1,0 +1,8 @@
+const AppText_vue_vue_type_style_index_0_scoped_5326121c_inline_used_lang = ".app-text[data-v-5326121c]{color:var(--color-text);font-family:var(--font-body);margin:0}.app-text--display[data-v-5326121c]{font-family:var(--font-display);font-size:var(--text-3xl);font-weight:600;letter-spacing:-.01em;line-height:1.1}@media(min-width:768px){.app-text--display[data-v-5326121c]{font-size:var(--text-4xl)}}.app-text--heading-lg[data-v-5326121c]{font-size:var(--text-2xl);line-height:1.2}.app-text--heading-lg[data-v-5326121c],.app-text--heading-md[data-v-5326121c]{font-family:var(--font-display);font-weight:600}.app-text--heading-md[data-v-5326121c]{font-size:var(--text-xl);line-height:1.3}.app-text--body[data-v-5326121c]{font-size:var(--text-base)}.app-text--body-sm[data-v-5326121c],.app-text--muted[data-v-5326121c]{font-size:var(--text-sm)}.app-text--muted[data-v-5326121c]{color:var(--color-text-muted)}";
+
+const AppTextStyles_DIYYD5Lg = [
+  AppText_vue_vue_type_style_index_0_scoped_5326121c_inline_used_lang
+];
+
+export { AppTextStyles_DIYYD5Lg as default };
+//# sourceMappingURL=AppText-styles.DIYYD5Lg.mjs.map

@@ -1,0 +1,63 @@
+/*
+  ATOM: Color Tokens
+  Palette derived from the Pangasinan Provincial Tourism map/badge artwork
+  (dominant teal #077A7D), paired with a warm sand/gold accent evoking the
+  Hundred Islands coastline. These custom properties are the single source
+  of truth — every component below reads color from here, never a literal hex.
+*/
+:root {
+  /* Brand teal (from the source map illustration) */
+  --color-primary: #077a7d;
+  --color-primary-dark: #054e50;
+  --color-primary-light: #4fa8aa;
+  --color-primary-tint: #e3f1f1; /* very light wash for backgrounds */
+
+  /* Warm accent — sunset over the islands */
+  --color-accent: #f2a93b;
+  --color-accent-dark: #c77f1e;
+  --color-accent-tint: #fdf1dd;
+
+  /* Neutrals */
+  --color-bg: #fbf8f3; /* warm sand-white page background */
+  --color-surface: #ffffff;
+  --color-text: #0b2e2e; /* deep teal-black, not pure black */
+  --color-text-muted: #4b6363;
+  --color-border: #d8e4e4;
+  --color-focus: #c77f1e;
+
+  /* Typography */
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Work Sans', system-ui, -apple-system, sans-serif;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.375rem;
+  --text-2xl: 1.75rem;
+  --text-3xl: 2.25rem;
+  --text-4xl: 2.75rem;
+
+  /* Spacing scale (4px base) */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+
+  /* Layout */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --content-max: 72rem;
+
+  /* Motion */
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration-fast: 150ms;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* Reserved for a future dark theme; home screen currently ships light-only */
+}

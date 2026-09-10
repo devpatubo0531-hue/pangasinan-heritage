@@ -1,0 +1,50 @@
+// https://nuxt.com/docs/api/configuration/nuxt-config
+export default defineNuxtConfig({
+  compatibilityDate: '2024-09-01',
+  devtools: { enabled: true },
+
+  modules: ['@nuxt/image'],
+
+  image: {
+    format: ['webp'],
+    quality: 75,
+    // Since prerender: ['/'] means static/JAMstack deploy, ipx handles
+    // resizing at build/request time — no external image CDN needed.
+  },
+
+  // JAMstack / static deployment target (Netlify, Vercel static, GitHub Pages, etc.)
+  nitro: {
+    prerender: {
+      routes: ['/']
+    }
+  },
+
+  app: {
+    head: {
+      htmlAttrs: { lang: 'en' },
+      title: 'Pangasinan Heritage Digital Showcase',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        {
+          name: 'description',
+          content:
+            'Discover the Hundred Islands, Bolinao Lighthouse, and Balungao Hot Spring — a mobile-first heritage guide to Pangasinan.'
+        },
+        { name: 'theme-color', content: '#077A7D' }
+      ],
+      link: [
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
+        // Preconnect keeps font loading fast on mobile data
+        { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+        { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
+        {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap'
+        }
+      ]
+    }
+  },
+
+  css: ['~/assets/css/tokens.css', '~/assets/css/base.css']
+})
