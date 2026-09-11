@@ -1,5 +1,0 @@
-const base = "*,:after,:before{box-sizing:border-box}html{scroll-behavior:smooth}[id]{scroll-margin-top:84px}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,:after,:before{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}body{background:var(--color-bg);color:var(--color-text);font-family:var(--font-body);font-size:var(--text-base);line-height:1.55;margin:0;-webkit-font-smoothing:antialiased}img,svg{display:block;max-width:100%}a{color:inherit}:focus-visible{border-radius:4px;outline:3px solid var(--color-focus);outline-offset:2px}.sr-only{height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;clip:rect(0,0,0,0);border:0;white-space:nowrap}.skip-link{background:var(--color-primary-dark);border-radius:0 0 var(--radius-sm) 0;color:#fff;left:-9999px;padding:var(--space-2) var(--space-4);position:absolute;top:0;z-index:100}.skip-link:focus{left:0}";
-export {
-  base as default
-};
-//# sourceMappingURL=entry-styles-2.mjs-Bo1HukNO.js.map

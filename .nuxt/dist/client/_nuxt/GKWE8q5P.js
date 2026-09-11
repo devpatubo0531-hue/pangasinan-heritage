@@ -1,1 +1,0 @@
-import{_ as t,o,c as a,a as s}from"./CIY1UNxe.js";const r={class:"site-footer",id:"about"},c={__name:"SiteFooter",props:{credits:{type:Array,default:()=>[]}},setup(n){return(_,e)=>(o(),a("footer",r,[...e[0]||(e[0]=[s("p",null,"Pangasinan · Heritage Digital Showcase",-1)])]))}},p=t(c,[["__scopeId","data-v-d040b6da"]]);export{p as S};

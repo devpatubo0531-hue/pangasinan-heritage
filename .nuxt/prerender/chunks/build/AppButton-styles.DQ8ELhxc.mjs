@@ -1,8 +1,0 @@
-const AppButton_vue_vue_type_style_index_0_scoped_d5d2c513_inline_used_lang = ".app-button[data-v-d5d2c513]{align-items:center;border:2px solid transparent;border-radius:var(--radius-sm);cursor:pointer;display:inline-flex;font-family:var(--font-body);font-weight:600;gap:var(--space-2);justify-content:center;min-height:44px;text-decoration:none;transition:background-color var(--duration-fast) var(--ease-standard),color var(--duration-fast) var(--ease-standard),border-color var(--duration-fast) var(--ease-standard)}.app-button--md[data-v-d5d2c513]{font-size:var(--text-base);padding:var(--space-3) var(--space-5)}.app-button--sm[data-v-d5d2c513]{font-size:var(--text-sm);min-height:40px;padding:var(--space-2) var(--space-4)}.app-button--primary[data-v-d5d2c513]{background:var(--color-accent);color:var(--color-primary-dark)}.app-button--primary[data-v-d5d2c513]:hover{background:var(--color-accent-dark);color:#fff}.app-button--secondary[data-v-d5d2c513]{background:var(--color-primary);color:#fff}.app-button--secondary[data-v-d5d2c513]:hover{background:var(--color-primary-dark)}.app-button--ghost[data-v-d5d2c513]{background:transparent;border-color:var(--color-surface);color:var(--color-surface)}.app-button--ghost[data-v-d5d2c513]:hover{background:#ffffff26}";
-
-const AppButtonStyles_DQ8ELhxc = [
-  AppButton_vue_vue_type_style_index_0_scoped_d5d2c513_inline_used_lang
-];
-
-export { AppButtonStyles_DQ8ELhxc as default };
-//# sourceMappingURL=AppButton-styles.DQ8ELhxc.mjs.map
